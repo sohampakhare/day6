@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+@media screen and (min-width : 1000px) {
+    .video-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .muted-container p {
+        font-size:16px;
+    }
+}
+.grow {
+    flex-grow: 1;
+}
